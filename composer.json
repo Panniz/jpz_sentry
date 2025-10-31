@@ -1,0 +1,29 @@
+{
+    "name": "panniz/jpz_sentry",
+    "description": "Sentry integration for PrestaShop modules to capture and report errors.",
+    "type": "prestashop-module",
+    "autoload": {
+    },
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jacopo Zane"
+        }
+    ],
+    "version": "1.0.0",
+    "config": {
+        "platform": {
+            "php": "8.1"
+        },
+        "allow-plugins": {
+            "composer/installers": true
+        },
+        "optimize-autoloader": true,
+        "classmap-authoritative": true
+    },
+    "require": {
+        "php": "~8.1",
+        "sentry/sentry": "*"
+    }
+}
